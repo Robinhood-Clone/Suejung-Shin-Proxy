@@ -1,0 +1,24 @@
+{
+  "name": "suejung-shin-proxy",
+  "version": "1.0.0",
+  "description": "> Project description",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robinhood-Clone/Suejung-Shin-Proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robinhood-Clone/Suejung-Shin-Proxy/issues"
+  },
+  "homepage": "https://github.com/Robinhood-Clone/Suejung-Shin-Proxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
