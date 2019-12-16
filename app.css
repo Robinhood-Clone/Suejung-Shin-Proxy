@@ -1,0 +1,64 @@
+#headerImage {
+  width: 1200px;
+}
+
+#mainBody {
+  position: relative;
+  height: 1800px;
+}
+
+#orderFormContainer {
+  position: sticky;
+  left: 950px;
+  top: 50px;
+  width: 385px;
+}
+
+#orderForm {
+  z-index: 100;
+}
+
+#earnings {
+  display: flex;
+}
+
+#analystRatings {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#graphContainer {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+#alsoBoughtModule {
+  display: flex;
+  position: absolute;
+  top: 1890px;
+  left: -180px;
+}
+
+#modulesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 500px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+#aboutCollections {
+  display: flex;
+  position: relative;
+  height: 470px;
+  margin-bottom: 30px;
+}
+
+#aboutCollectionsImage {
+  display: flex;
+  position: absolute;
+  left: -120px;
+  height: 470px;
+}
