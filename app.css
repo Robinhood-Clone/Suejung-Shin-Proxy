@@ -4,7 +4,7 @@
 
 #mainBody {
   position: relative;
-  height: 1800px;
+  height: 3000px;
 }
 
 #orderFormContainer {
@@ -12,6 +12,7 @@
   left: 950px;
   top: 50px;
   width: 385px;
+  z-index: 100;
 }
 
 #orderForm {
@@ -24,6 +25,7 @@
 
 #analystRatings {
   display: flex;
+  margin-top: -20px;
   margin-bottom: 20px;
 }
 
@@ -35,8 +37,9 @@
 #alsoBoughtModule {
   display: flex;
   position: absolute;
-  top: 1890px;
-  left: -180px;
+  top: 2570px;
+  left: -190px;
+  z-index: -1;
 }
 
 #modulesContainer {
@@ -52,13 +55,17 @@
 #aboutCollections {
   display: flex;
   position: relative;
-  height: 470px;
-  margin-bottom: 30px;
+  height: 1200px;
+  width: 900px;
+  margin-bottom: 20px;
+  z-index: -1;
 }
 
-#aboutCollectionsImage {
+#aboutImage {
   display: flex;
   position: absolute;
-  left: -120px;
-  height: 470px;
+  left: -200px;
+  height: 1200px;
+  width: 900px;
+  z-index: -1;
 }
